@@ -1,0 +1,29 @@
+================================================================================
+AIRCRAFT FLIGHT MODES ANALYSIS
+================================================================================
+
+LONGITUDINAL EIGENVALUES:
+  -2.221854 + 2.906568j
+  -2.221854 + -2.906568j
+  -0.004346 + 0.180481j
+  -0.004346 + -0.180481j
+
+LATERAL-DIRECTIONAL EIGENVALUES:
+  -7.458670 + 0.000000j
+  -0.393523 + 2.174758j
+  -0.393523 + -2.174758j
+  -0.015184 + 0.000000j
+
+
+              Mode          Type       Eigenvalue Asymptotically Stable Oscillatory                                           Description
+0          Phugoid  Longitudinal  -0.004 ± 0.180i                   Yes         Yes  Slow oscillation exchanging kinetic/potential energy
+1     Short Period  Longitudinal  -2.222 ± 2.907i                   Yes         Yes          Rapid pitch oscillation at constant airspeed
+2  Roll Subsidence       Lateral           -7.459                   Yes          No                   Rapid, non-oscillatory roll damping
+3           Spiral       Lateral           -0.015                   Yes          No             Slow, non-oscillatory roll-yaw divergence
+4       Dutch Roll       Lateral  -0.394 ± 2.175i                   Yes         Yes               Coupled oscillatory roll-and-yaw motion
+
+================================================================================
+STABILITY SUMMARY
+================================================================================
+All five classical flight modes are present and asymptotically stable.
+The aircraft exhibits stable dynamic characteristics for this flight condition.
